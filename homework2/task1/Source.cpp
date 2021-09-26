@@ -1,4 +1,4 @@
-#include <iostream>
+п»ї#include <iostream>
 
 using namespace std;
 
@@ -6,43 +6,43 @@ int main(int argc, char* argv[])
 {
 	setlocale(LC_ALL, "Russian");
 
-	string one_hundred = "сто ";
-	string two_hundred = "двести ";
-	string three_hundred = "триста ";
-	string four_hundred = "четыреста ";
-	string five_hundred = "пятьсот ";
-	string six_hundred = "шестьсот ";
-	string seven_hundred = "семьсот ";
-	string eight_hundred = "восемьсот ";
-	string nine_hundred = "девятьсот ";
-	string twenty = "двадцать ";
-	string thirty = "тридать ";
-	string fourty = "сорок ";
-	string fifty = "пятьдесят ";
-	string sixty = "шестьдесят ";
-	string seventy = "семьдесят ";
-	string eighty = "восемьдесят ";
-	string ninety = "девяносто ";
-	string ten = "десять ";
-	string eleven = "одинадцать ";
-	string twelve = "двенадцать ";
-	string thirteen = "тринадцать ";
-	string fourteen = "четырнадцать ";
-	string fifteen = "пятнадцать ";
-	string sixteen = "шестнадцать ";
-	string seventeen = "семнадцать ";
-	string eighteen = "восемнадцать ";
-	string nineteen = "девятнадцать ";
-	string one = "один ";
-	string two = "два ";
-	string three = "три ";
-	string four = "четыре ";
-	string five = "пять ";
-	string six = "шесть ";
-	string seven = "семь ";
-	string eight = "восемь ";
-	string nine = "девять ";
-	string zero = "ноль ";
+	string one_hundred = "СЃС‚Рѕ ";
+	string two_hundred = "РґРІРµСЃС‚Рё ";
+	string three_hundred = "С‚СЂРёСЃС‚Р° ";
+	string four_hundred = "С‡РµС‚С‹СЂРµСЃС‚Р° ";
+	string five_hundred = "РїСЏС‚СЊСЃРѕС‚ ";
+	string six_hundred = "С€РµСЃС‚СЊСЃРѕС‚ ";
+	string seven_hundred = "СЃРµРјСЊСЃРѕС‚ ";
+	string eight_hundred = "РІРѕСЃРµРјСЊСЃРѕС‚ ";
+	string nine_hundred = "РґРµРІСЏС‚СЊСЃРѕС‚ ";
+	string twenty = "РґРІР°РґС†Р°С‚СЊ ";
+	string thirty = "С‚СЂРёРґР°С‚СЊ ";
+	string fourty = "СЃРѕСЂРѕРє ";
+	string fifty = "РїСЏС‚СЊРґРµСЃСЏС‚ ";
+	string sixty = "С€РµСЃС‚СЊРґРµСЃСЏС‚ ";
+	string seventy = "СЃРµРјСЊРґРµСЃСЏС‚ ";
+	string eighty = "РІРѕСЃРµРјСЊРґРµСЃСЏС‚ ";
+	string ninety = "РґРµРІСЏРЅРѕСЃС‚Рѕ ";
+	string ten = "РґРµСЃСЏС‚СЊ ";
+	string eleven = "РѕРґРёРЅР°РґС†Р°С‚СЊ ";
+	string twelve = "РґРІРµРЅР°РґС†Р°С‚СЊ ";
+	string thirteen = "С‚СЂРёРЅР°РґС†Р°С‚СЊ ";
+	string fourteen = "С‡РµС‚С‹СЂРЅР°РґС†Р°С‚СЊ ";
+	string fifteen = "РїСЏС‚РЅР°РґС†Р°С‚СЊ ";
+	string sixteen = "С€РµСЃС‚РЅР°РґС†Р°С‚СЊ ";
+	string seventeen = "СЃРµРјРЅР°РґС†Р°С‚СЊ ";
+	string eighteen = "РІРѕСЃРµРјРЅР°РґС†Р°С‚СЊ ";
+	string nineteen = "РґРµРІСЏС‚РЅР°РґС†Р°С‚СЊ ";
+	string one = "РѕРґРёРЅ ";
+	string two = "РґРІР° ";
+	string three = "С‚СЂРё ";
+	string four = "С‡РµС‚С‹СЂРµ ";
+	string five = "РїСЏС‚СЊ ";
+	string six = "С€РµСЃС‚СЊ ";
+	string seven = "СЃРµРјСЊ ";
+	string eight = "РІРѕСЃРµРјСЊ ";
+	string nine = "РґРµРІСЏС‚СЊ ";
+	string zero = "РЅРѕР»СЊ ";
 	int number = 0;
 	int first_number = 0;
 	int second_number = 0;
@@ -52,7 +52,7 @@ int main(int argc, char* argv[])
 	string third = "";
 	string fourth = "";
 
-	cout << "Введите число:" << endl;
+	cout << "Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ:" << endl;
 	cin >> number;
 	if (number)
 	{
@@ -185,21 +185,21 @@ int main(int argc, char* argv[])
 		}
 		if (third_number == 1)
 		{
-			fourth = "банан";
+			fourth = "Р±Р°РЅР°РЅ";
 		}
 		else if (third_number == 2 || third_number == 3 || third_number == 4)
 		{
-			fourth = "банана";
+			fourth = "Р±Р°РЅР°РЅР°";
 		}
 		else
 		{
-			fourth = "бананов";
+			fourth = "Р±Р°РЅР°РЅРѕРІ";
 		}
 		cout << first << second << third << fourth << endl;
 	}
 	else
 	{
-		cout << zero << "бананов" << endl;
+		cout << zero << "Р±Р°РЅР°РЅРѕРІ" << endl;
 	}
 	return EXIT_SUCCESS;
 }
