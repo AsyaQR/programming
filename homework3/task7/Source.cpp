@@ -20,6 +20,7 @@ int main(int argc, char* argv[])
 			cout << i << " ";
 		}
 	}
+
 	cout << endl;
 	return EXIT_SUCCESS;
 }

@@ -16,6 +16,7 @@ int main(int argc, char* argv[])
 		cin >> number;
 		result += number;
 	}
+
 	cout << result << endl;
 	return EXIT_SUCCESS;
 }

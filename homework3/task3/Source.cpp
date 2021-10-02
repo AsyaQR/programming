@@ -5,11 +5,12 @@ using namespace std;
 int main(int argc, char* argv[])
 {
 	int n = 0;
-	int result = 1;
 	int current_number = 1;
 	int current_row = 1;
+
 	cout << "Input n:" << endl;
 	cin >> n;
+
 	while (current_number < n + 1)
 	{
 		for (int i = 0; i < current_row; ++i)
