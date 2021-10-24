@@ -12,9 +12,12 @@ int main(int argc, char* argv[])
 
 	for (int i = a; i < b + 1; ++i)
 	{
-		if (sqrt(i) == int(sqrt(i)))
+		for (int j = 0; j < i + 1; ++j)
 		{
-			cout << i << " ";
+			if (i == j * j)
+			{
+				cout << i << endl;
+			}
 		}
 	}
 
