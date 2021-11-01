@@ -7,7 +7,7 @@ int main(int argc, char* argv[])
 {
 	int n = 0;
 	cin >> n;
-	int* numbers = new int[n];
+	int* numbers = new int[n] { 0 };
 
 	for (int i = 0; i < n; ++i)
 	{
