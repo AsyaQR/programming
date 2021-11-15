@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include<stdio.h>
-#include<conio.h>
-#include<iostream>
+#include <stdio.h>
+#include <conio.h>
+#include <iostream>
 
 using namespace std;
 
