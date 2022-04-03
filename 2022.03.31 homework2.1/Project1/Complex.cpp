@@ -29,9 +29,13 @@ double Complex::abs()
 
 double Complex::arg()
 {
-	if (this->re != 0 or this->im != 0)
+	if (this->im > 0)
 	{
 		return acos(this->re / this->abs());
+	}
+	else if (this->im < 0)
+	{
+		return -acos(this->re / this->abs());
 	}
 }
 
