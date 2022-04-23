@@ -11,7 +11,6 @@ private:
 	long long denominator;
 
 public:
-	Fraction(long long numerator, long long denominator);
 	Fraction(long long numerator = 0, long long denominator = 0);
 	Fraction(const Fraction& fraction);
 	~Fraction();

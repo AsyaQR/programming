@@ -14,8 +14,6 @@ Fraction::Fraction(long long numerator, long long denominator)
 	}
 }
 
-Fraction::Fraction(long long numerator = 0, long long denominator = 0) : numerator(numerator), denominator(denominator) {}
-
 Fraction::Fraction(const Fraction& fraction) : numerator(fraction.numerator), denominator(fraction.denominator) {}
 
 Fraction::~Fraction()
